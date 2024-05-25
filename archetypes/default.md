@@ -1,6 +1,10 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-draft: true
+
+# Description shown on the album page
+description: 
+featured_image:
+featured: "false"
 ---
 

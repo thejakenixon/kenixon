@@ -2,3 +2,12 @@ baseURL = 'http://kenixon.com/'
 languageCode = 'en-us'
 title = 'Jake Nixon Photography'
 theme = "gallery"
+
+[params]
+    [params.socialIcons]
+        twitter = "https://www.twitter.com/thejakenixon"
+        instagram = "https://www.instagram.com/thejakenixon"
+        linkedin = "https://www.linkedin.com/in/jacobnixon"
+        youtube = "https://www.youtube.com/thejakenixon"
+        email = "mailto:photos@jakenixon.com"
+        github = "https://github.com/thejakenixon"

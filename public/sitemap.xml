@@ -2,10 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://kenixon.com/utah/</loc>
+    <lastmod>2024-05-24T21:31:31-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://kenixon.com/</loc>
+    <lastmod>2024-05-24T21:28:38-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://kenixon.com/about/</loc>
+    <lastmod>2024-05-24T21:16:45-06:00</lastmod>
+  </url><url>
+    <loc>http://kenixon.com/categories/</loc>
+  </url><url>
+    <loc>http://kenixon.com/tags/</loc>
   </url>
 </urlset>
