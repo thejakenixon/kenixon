@@ -1,0 +1,4 @@
+baseURL = 'http://kenixon.com/'
+languageCode = 'en-us'
+title = 'Jake Nixon Photography'
+theme = "gallery"
