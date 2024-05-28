@@ -10,6 +10,7 @@
       {{ .Site.Title }}
     </a>
   {{ end }}
+  {{ partial "menu.html" . }}
   <ul>
     <li>
       <button class="btn btn-square group" id="menu-toggle" aria-expanded="false" type="button" title="{{ T "menu" }}">
@@ -23,4 +24,3 @@
     </li>
   </ul>
 </header>
-{{ partial "menu.html" . }}

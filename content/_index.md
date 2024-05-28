@@ -1,9 +1,9 @@
 ---
-description: Albums
+description: a selection of my finest photography
 #lastmod: 2024-05-24
-title: Portfolio
+title: portfolio
 menus:
     main:
-        name: Home
+        name: home
         weight: -1
 ---

@@ -1,0 +1,13 @@
+@media (min-width: 640px) {
+    menu {
+        position: absolute;
+        float: none;
+        left: 50%;
+        transform: translate(-50%);
+        display: flex;
+    }
+
+    menu li {
+        padding: 10px;
+    }
+}

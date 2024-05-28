@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>places on earth on jake nixon photography</title>
+    <link>http://localhost:1313/places/</link>
+    <description>Recent content in places on earth on jake nixon photography</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 May 2024 21:31:31 -0600</lastBuildDate><atom:link href="http://localhost:1313/places/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>colorado</title>
+      <link>http://localhost:1313/places/colorado/</link>
+      <pubDate>Fri, 24 May 2024 21:31:31 -0600</pubDate>
+      <guid>http://localhost:1313/places/colorado/</guid><media:content url="http://localhost:1313/places/colorado/co2_hu0554b8a2ed02a3cf1fe96e86f5f0b562_2496249_900x600_fill_q75_box_smart1.jpg" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;http://localhost:1313/places/colorado/co2_hu0554b8a2ed02a3cf1fe96e86f5f0b562_2496249_900x600_fill_q75_box_smart1.jpg&quot; /&gt;
+          &lt;p&gt;My favorite photos from colorado&lt;/p&gt;
+        </description></item>
+    <item>
+      <title>iceland</title>
+      <link>http://localhost:1313/places/iceland/</link>
+      <pubDate>Fri, 24 May 2024 21:31:31 -0600</pubDate>
+      <guid>http://localhost:1313/places/iceland/</guid><media:content url="http://localhost:1313/places/iceland/puffins_hu6fc26c21046ac1a366ce55017ca21ac2_2077548_900x600_fill_q75_box_smart1.jpg" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;http://localhost:1313/places/iceland/puffins_hu6fc26c21046ac1a366ce55017ca21ac2_2077548_900x600_fill_q75_box_smart1.jpg&quot; /&gt;
+          &lt;p&gt;My favorite photos from iceland&lt;/p&gt;
+        </description></item>
+    <item>
+      <title>utah</title>
+      <link>http://localhost:1313/places/utah/</link>
+      <pubDate>Fri, 24 May 2024 21:31:31 -0600</pubDate>
+      <guid>http://localhost:1313/places/utah/</guid><media:content url="http://localhost:1313/places/utah/PowPark1_001_hu4ef8ae78f292d7d04f0b1d5aa8935199_9280125_900x600_fill_q75_box_smart1.jpg" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;http://localhost:1313/places/utah/PowPark1_001_hu4ef8ae78f292d7d04f0b1d5aa8935199_9280125_900x600_fill_q75_box_smart1.jpg&quot; /&gt;
+          &lt;p&gt;My favorite photos from Utah&lt;/p&gt;
+        </description></item>
+  </channel>
+</rss>

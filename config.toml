@@ -1,6 +1,6 @@
 baseURL = 'http://kenixon.com/'
 languageCode = 'en-us'
-title = 'Jake Nixon Photography'
+title = 'jake nixon photography'
 theme = "gallery"
 
 [params]
@@ -10,4 +10,4 @@ theme = "gallery"
         linkedin = "https://www.linkedin.com/in/jacobnixon"
         youtube = "https://www.youtube.com/thejakenixon"
         email = "mailto:photos@jakenixon.com"
-        github = "https://github.com/thejakenixon"
+        #github = "https://github.com/thejakenixon"
