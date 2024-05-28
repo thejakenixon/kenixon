@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Portfolio on Jake Nixon Photography</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:41967/</link>
     <description>Recent content in Portfolio on Jake Nixon Photography</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 May 2024 16:21:25 -0600</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 May 2024 16:21:25 -0600</lastBuildDate><atom:link href="http://localhost:41967/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Birds</title>
-      <link>http://localhost:1313/birds/</link>
+      <link>http://localhost:41967/birds/</link>
       <pubDate>Sun, 26 May 2024 16:21:25 -0600</pubDate>
-      <guid>http://localhost:1313/birds/</guid><description></description></item>
+      <guid>http://localhost:41967/birds/</guid><description></description></item>
     <item>
       <title>Utah</title>
-      <link>http://localhost:1313/utah/</link>
+      <link>http://localhost:41967/utah/</link>
       <pubDate>Fri, 24 May 2024 21:31:31 -0600</pubDate>
-      <guid>http://localhost:1313/utah/</guid><media:content url="http://localhost:1313/utah/PowPark1_001_hu4ef8ae78f292d7d04f0b1d5aa8935199_9280125_900x600_fill_q75_box_smart1.jpg" type="image/jpeg"/>
+      <guid>http://localhost:41967/utah/</guid><media:content url="http://localhost:41967/utah/PowPark1_001_hu4ef8ae78f292d7d04f0b1d5aa8935199_9280125_900x600_fill_q75_box_smart1.jpg" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;http://localhost:1313/utah/PowPark1_001_hu4ef8ae78f292d7d04f0b1d5aa8935199_9280125_900x600_fill_q75_box_smart1.jpg&quot; /&gt;
+          &lt;img src=&quot;http://localhost:41967/utah/PowPark1_001_hu4ef8ae78f292d7d04f0b1d5aa8935199_9280125_900x600_fill_q75_box_smart1.jpg&quot; /&gt;
           &lt;p&gt;My favorite photos from Utah&lt;/p&gt;
         </description></item>
   </channel>
