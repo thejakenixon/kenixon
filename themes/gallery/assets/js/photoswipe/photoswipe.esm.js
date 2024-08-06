@@ -6490,7 +6490,7 @@ const defaultOptions = {
   bgClickAction: 'close',
   tapAction: 'toggle-controls',
   doubleTapAction: 'zoom',
-  indexIndicatorSep: ' / ',
+  indexIndicatorSep: ' of ',
   preloaderDelay: 2000,
   bgOpacity: 0.8,
   index: 0,
