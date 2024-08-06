@@ -6,16 +6,7 @@
     <description>Recent content in portfolio on jake nixon photography</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 May 2024 21:31:31 -0600</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>animals</title>
-      <link>http://localhost:1313/animals/</link>
-      <pubDate>Fri, 24 May 2024 21:31:31 -0600</pubDate>
-      <guid>http://localhost:1313/animals/</guid><media:content url="http://localhost:1313/animals/FlipFlop_huefc36df67447589d5f66580f4299e97e_175583_900x600_fill_q75_box_smart1.jpg" type="image/jpeg"/>
-        <description>
-          &lt;img src=&quot;http://localhost:1313/animals/FlipFlop_huefc36df67447589d5f66580f4299e97e_175583_900x600_fill_q75_box_smart1.jpg&quot; /&gt;
-          &lt;p&gt;photos of animals&lt;/p&gt;
-        </description></item>
+    <lastBuildDate>Mon, 05 Aug 2024 23:43:58 -0600</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>space</title>
       <link>http://localhost:1313/space/</link>
@@ -26,30 +17,39 @@
           &lt;p&gt;photos of beauty in our solar system and beyond&lt;/p&gt;
         </description></item>
     <item>
-      <title>colorado</title>
-      <link>http://localhost:1313/places/colorado/</link>
-      <pubDate>Fri, 24 May 2024 21:31:31 -0600</pubDate>
-      <guid>http://localhost:1313/places/colorado/</guid><media:content url="http://localhost:1313/places/colorado/co2_hu0554b8a2ed02a3cf1fe96e86f5f0b562_2496249_900x600_fill_q75_box_smart1.jpg" type="image/jpeg"/>
+      <title>people</title>
+      <link>http://localhost:1313/people/</link>
+      <pubDate>Mon, 05 Aug 2024 23:43:58 -0600</pubDate>
+      <guid>http://localhost:1313/people/</guid><media:content url="http://localhost:1313/people/michael_hu7a25a74d593713143ba61ca90d4f7f8d_8716703_900x600_fill_q75_box_smart1.jpg" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;http://localhost:1313/places/colorado/co2_hu0554b8a2ed02a3cf1fe96e86f5f0b562_2496249_900x600_fill_q75_box_smart1.jpg&quot; /&gt;
-          &lt;p&gt;My favorite photos from colorado&lt;/p&gt;
+          &lt;img src=&quot;http://localhost:1313/people/michael_hu7a25a74d593713143ba61ca90d4f7f8d_8716703_900x600_fill_q75_box_smart1.jpg&quot; /&gt;
+          &lt;p&gt;photos of people&lt;/p&gt;
+        </description></item>
+    <item>
+      <title>colorado</title>
+      <link>http://localhost:1313/earth/colorado/</link>
+      <pubDate>Fri, 24 May 2024 21:31:31 -0600</pubDate>
+      <guid>http://localhost:1313/earth/colorado/</guid><media:content url="http://localhost:1313/earth/colorado/co2_hu0554b8a2ed02a3cf1fe96e86f5f0b562_2496249_900x600_fill_q75_box_smart1.jpg" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;http://localhost:1313/earth/colorado/co2_hu0554b8a2ed02a3cf1fe96e86f5f0b562_2496249_900x600_fill_q75_box_smart1.jpg&quot; /&gt;
+          &lt;p&gt;my favorite photos from colorado&lt;/p&gt;
         </description></item>
     <item>
       <title>iceland</title>
-      <link>http://localhost:1313/places/iceland/</link>
+      <link>http://localhost:1313/earth/iceland/</link>
       <pubDate>Fri, 24 May 2024 21:31:31 -0600</pubDate>
-      <guid>http://localhost:1313/places/iceland/</guid><media:content url="http://localhost:1313/places/iceland/puffins_hu6fc26c21046ac1a366ce55017ca21ac2_2077548_900x600_fill_q75_box_smart1.jpg" type="image/jpeg"/>
+      <guid>http://localhost:1313/earth/iceland/</guid><media:content url="http://localhost:1313/earth/iceland/puffins_hu6fc26c21046ac1a366ce55017ca21ac2_2077548_900x600_fill_q75_box_smart1.jpg" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;http://localhost:1313/places/iceland/puffins_hu6fc26c21046ac1a366ce55017ca21ac2_2077548_900x600_fill_q75_box_smart1.jpg&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/earth/iceland/puffins_hu6fc26c21046ac1a366ce55017ca21ac2_2077548_900x600_fill_q75_box_smart1.jpg&quot; /&gt;
           &lt;p&gt;My favorite photos from iceland&lt;/p&gt;
         </description></item>
     <item>
       <title>utah</title>
-      <link>http://localhost:1313/places/utah/</link>
+      <link>http://localhost:1313/earth/utah/</link>
       <pubDate>Fri, 24 May 2024 21:31:31 -0600</pubDate>
-      <guid>http://localhost:1313/places/utah/</guid><media:content url="http://localhost:1313/places/utah/PowPark1_001_hu4ef8ae78f292d7d04f0b1d5aa8935199_9280125_900x600_fill_q75_box_smart1.jpg" type="image/jpeg"/>
+      <guid>http://localhost:1313/earth/utah/</guid><media:content url="http://localhost:1313/earth/utah/PowPark1_001_hu4ef8ae78f292d7d04f0b1d5aa8935199_9280125_900x600_fill_q75_box_smart1.jpg" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;http://localhost:1313/places/utah/PowPark1_001_hu4ef8ae78f292d7d04f0b1d5aa8935199_9280125_900x600_fill_q75_box_smart1.jpg&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/earth/utah/PowPark1_001_hu4ef8ae78f292d7d04f0b1d5aa8935199_9280125_900x600_fill_q75_box_smart1.jpg&quot; /&gt;
           &lt;p&gt;My favorite photos from Utah&lt;/p&gt;
         </description></item>
   </channel>
