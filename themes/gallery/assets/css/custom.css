@@ -1,13 +1,60 @@
-@media (min-width: 640px) {
-    menu {
-        position: absolute;
-        float: none;
-        left: 50%;
-        transform: translate(-50%);
+@font-face {
+    font-family: "mont-heavy";
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('/fonts/mont-heavy.woff2') format('woff2'),
+        url('/fonts/mont-heavy.woff') format('woff');
+}
+
+@font-face {
+    font-family: "mont-extralight";
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('/fonts/mont-extralight.woff2') format('woff2'),
+        url('/fonts/mont-extralight.woff') format('woff');
+}
+
+body > header .btn {
+    font-family: "mont-heavy";
+    letter-spacing: 1.5px;
+    min-width: 290px;
+}
+
+body {
+    font-family: "mont-extralight";
+}
+
+menu {
+    position: absolute;
+    float: none;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+menu li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+body > header ul {
+    display: inline-flex;
+}
+
+ul, menu {
+    display: flex;
+    padding: 10px;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* @media only screen and (max-width: 800px) {
+    #menu {
+        display: none;
+    }
+    #mobilemenu {
         display: flex;
     }
-
-    menu li {
-        padding: 10px;
-    }
-}
+} */

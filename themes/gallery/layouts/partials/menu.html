@@ -1,4 +1,4 @@
-<menu class="hidden" id="menu">
+<menu id="menu" class="menulist">
   {{ range site.Menus.main }}
     <li itemscope itemtype="http://www.schema.org/SiteNavigationElement">
       <a aria-current="{{ or (page.IsMenuCurrent .Menu .) (page.HasMenuCurrent .Menu .) }}" href="{{ .URL }}" itemprop="url">
