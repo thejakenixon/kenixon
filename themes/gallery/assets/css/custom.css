@@ -27,10 +27,8 @@ body {
 }
 
 menu {
-    position: absolute;
     float: none;
     left: 50%;
-    transform: translate(-50%);
     display: flex;
 }
 
@@ -39,8 +37,9 @@ menu li {
     padding-right: 10px;
 }
 
-body > header ul {
-    display: inline-flex;
+body > header {
+    display: grid;
+    justify-content: center;
 }
 
 ul, menu {
