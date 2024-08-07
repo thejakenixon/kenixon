@@ -2,31 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/earth/</loc>
+    <loc>http://kenixon.com/earth/colorado/</loc>
     <lastmod>2024-05-24T21:31:31-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/space/</loc>
+    <loc>http://kenixon.com/earth/</loc>
     <lastmod>2024-05-24T21:31:31-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/people/</loc>
+    <loc>http://kenixon.com/space/</loc>
+    <lastmod>2024-05-24T21:31:31-06:00</lastmod>
+  </url><url>
+    <loc>http://kenixon.com/people/</loc>
     <lastmod>2024-08-05T23:43:58-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://kenixon.com/earth/north-dakota/</loc>
+  </url><url>
+    <loc>http://kenixon.com/</loc>
     <lastmod>2024-08-05T23:43:58-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/earth/colorado/</loc>
+    <loc>http://kenixon.com/earth/iceland/</loc>
     <lastmod>2024-05-24T21:31:31-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/earth/iceland/</loc>
+    <loc>http://kenixon.com/earth/utah/</loc>
     <lastmod>2024-05-24T21:31:31-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/earth/utah/</loc>
-    <lastmod>2024-05-24T21:31:31-06:00</lastmod>
+    <loc>http://kenixon.com/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://kenixon.com/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://kenixon.com/tags/</loc>
   </url>
 </urlset>
