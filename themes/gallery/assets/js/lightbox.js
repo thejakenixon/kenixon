@@ -62,14 +62,30 @@ if (gallery) {
       order: 9,
       isButton: true,
       html: {
-      isCustomSVG: true,
-      inner: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="pswp__icn-order"><path d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/></svg>',
-      outlineID: 'pswp__icn-order'
+        isCustomSVG: true,
+        inner: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="pswp__icn-order"><path d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/></svg>',
+        outlineID: 'pswp__icn-order'
       },
       onClick: (event, el) => {
-      const imagePath = pswp.currSlide.data.element.href;
-      const fileName = imagePath.substring(imagePath.lastIndexOf('/') + 1, imagePath.lastIndexOf('.'));
-      window.location.href = "mailto:photos@jakenixon.com?subject=Print%20Order&body=Print%20selected:%20" + encodeURIComponent(fileName) + "%0ABelow%20this%20line,%20describe%20what%20kind%20of%20print%20you'd%20like.%20Metal?%20Canvas?%20Just%20paper?%20Thanks%20for%20your%20interest!";
+        const imagePath = lightbox.pswp.currSlide.data.element.href;
+        const fileName = imagePath.substring(imagePath.lastIndexOf('/') + 1, imagePath.lastIndexOf('.'));
+
+        lightbox.pswp.close();
+
+        document.getElementById('photoName').value = fileName;
+
+        const img = document.createElement('img');
+        img.src = imagePath;
+        img.alt = fileName;
+
+        const modalImageContainer = document.getElementById('modalImageContainer');
+        while (modalImageContainer.firstChild) {
+          modalImageContainer.removeChild(modalImageContainer.firstChild);
+        }
+
+        modalImageContainer.appendChild(img);
+
+        document.getElementById('orderModal').style.display = 'block';
       }
     })
   });

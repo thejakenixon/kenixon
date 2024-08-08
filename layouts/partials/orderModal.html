@@ -1,0 +1,109 @@
+<!-- Modal HTML -->
+<div id="orderModal" class="modal" aria-labelledby="orderModalTitle" aria-describedby="orderModalDescription" role="dialog">
+    <div class="modal-content">
+        <button type="button" class="close" aria-label="Close">&times;</button>
+        <div id="modalImageContainer"></div>
+        <form id="orderForm">
+            <label for="photoName">Photo Name</label>
+            <input type="text" id="photoName" placeholder="Photo Name" required>
+            
+            <label for="email">Your email</label>
+            <input type="email" id="email" placeholder="Your email" required>
+            
+            <label for="material">Material</label>
+            <select id="material" required>
+                <option disabled selected value="">Select material</option>
+                <option value="metal">Metal</option>
+                <option value="canvas">Canvas</option>
+                <option value="paper">Paper</option>
+            </select>
+            
+            <label for="size">Size</label>
+            <select id="size" required>
+                <option disabled selected value="">Select size</option>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select>
+            
+            <button type="submit" id="orderButton">Request Print Proof</button>
+        </form>
+    </div>
+</div>
+
+<script>
+    // Open modal and set image
+    document.addEventListener('click', function(event) {
+        if (event.target.matches('#pswp__icn-order')) {
+            const imagePath = lightbox.pswp.currSlide.data.element.href;
+            const fileName = imagePath.substring(imagePath.lastIndexOf('/') + 1, imagePath.lastIndexOf('.'));
+            
+            lightbox.pswp.close();
+            setPhotoName(fileName);
+            displayImage(imagePath, fileName);
+            showModal();
+        }
+    });
+
+    // Close modal
+    document.querySelector('.close').addEventListener('click', closeModal);
+    document.getElementById('orderModal').addEventListener('click', function(event) {
+        if (!event.target.closest('.modal-content')) {
+            closeModal();
+        }
+    });
+    document.addEventListener('keydown', function(event) {
+        if (event.key === 'Escape' && isModalOpen()) {
+            closeModal();
+        }
+    });
+
+    // Form submission
+    document.getElementById('orderForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        if (validateForm()) {
+            // Gather form data and send it to the server using AJAX
+        } else {
+            alert('Please fill out all fields before submitting the form.');
+        }
+    });
+
+    // Functions
+    function setPhotoName(name) {
+        document.getElementById('photoName').value = name;
+    }
+
+    function displayImage(src, alt) {
+        const modalImageContainer = document.getElementById('modalImageContainer');
+        modalImageContainer.innerHTML = '';
+
+        const photoNameHeading = document.createElement('h2');
+        photoNameHeading.textContent = alt;
+        modalImageContainer.appendChild(photoNameHeading);
+
+        const img = document.createElement('img');
+        img.src = src;
+        img.alt = alt;
+        img.classList.add('modal-image');
+        modalImageContainer.appendChild(img);
+    }
+
+    function showModal() {
+        document.getElementById('orderModal').style.display = 'block';
+    }
+
+    function closeModal() {
+        document.getElementById('orderForm').reset();
+        document.getElementById('orderModal').style.display = 'none';
+    }
+
+    function isModalOpen() {
+        return document.getElementById('orderModal').style.display === 'block';
+    }
+
+    function validateForm() {
+        const material = document.getElementById('material').value;
+        const size = document.getElementById('size').value;
+        return material && size;
+    }
+</script>

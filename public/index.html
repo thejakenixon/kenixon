@@ -1,11 +1,11 @@
 <!doctype html>
 <html class="" lang="en-us">
   <head>
-	<meta name="generator" content="Hugo 0.127.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta name="generator" content="Hugo 0.126.1">
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>portfolio - jake nixon photography</title>
-  <link rel="canonical" href="http://localhost:1313/" />
+  <link rel="canonical" href="http://kenixon.com/" />
   <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
   <link rel="icon" type="image/png" href="/images/favicon.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
@@ -14,17 +14,17 @@
   
     <meta name="robots" content="index, follow" />
   
-  <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml" title="jake nixon photography" />
+  <link rel="alternate" type="application/rss+xml" href="http://kenixon.com/index.xml" title="jake nixon photography" />
   <meta property="og:title" content="" />
 <meta property="og:description" content="my photography highlights" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://localhost:1313/" />
+<meta property="og:url" content="http://kenixon.com/" />
 
   
-  <link rel="stylesheet" href="/css/main.min.b209d02cd3b9494fae50617a17834bf797a1e87cb904c6a11e444a1ac52ca994.css" />
+  <link rel="stylesheet" href="/css/main.min.c71e38ac7a6548c8d580d5524a2693c664d7a05491c3117f0739ae1cf59a910d.css" />
   
   
-  <script src="/js/main.adc06d8676ad9fb8d19b4f4929f4af2c4f73bd9a703646491a97fa9f0d231d5c.js" defer></script></head>
+  <script src="/js/main.d543f7575f1a791b9ac283a0175a59101bcf3af0d6e248c81da0a06437503db6.js" defer></script></head>
 
   <body>
     <header>
@@ -134,6 +134,116 @@
   </section>
 
     </main>
+    
+<div id="orderModal" class="modal" aria-labelledby="orderModalTitle" aria-describedby="orderModalDescription" role="dialog">
+    <div class="modal-content">
+        <button type="button" class="close" aria-label="Close">&times;</button>
+        <div id="modalImageContainer"></div>
+        <form id="orderForm">
+            <label for="photoName">Photo Name</label>
+            <input type="text" id="photoName" placeholder="Photo Name" required>
+            
+            <label for="email">Your email</label>
+            <input type="email" id="email" placeholder="Your email" required>
+            
+            <label for="material">Material</label>
+            <select id="material" required>
+                <option disabled selected value="">Select material</option>
+                <option value="metal">Metal</option>
+                <option value="canvas">Canvas</option>
+                <option value="paper">Paper</option>
+            </select>
+            
+            <label for="size">Size</label>
+            <select id="size" required>
+                <option disabled selected value="">Select size</option>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select>
+            
+            <button type="submit" id="orderButton">Request Print Proof</button>
+        </form>
+    </div>
+</div>
+
+<script>
+    
+    document.addEventListener('click', function(event) {
+        if (event.target.matches('#pswp__icn-order')) {
+            const imagePath = lightbox.pswp.currSlide.data.element.href;
+            const fileName = imagePath.substring(imagePath.lastIndexOf('/') + 1, imagePath.lastIndexOf('.'));
+            
+            lightbox.pswp.close();
+            setPhotoName(fileName);
+            displayImage(imagePath, fileName);
+            showModal();
+        }
+    });
+
+    
+    document.querySelector('.close').addEventListener('click', closeModal);
+    document.getElementById('orderModal').addEventListener('click', function(event) {
+        if (!event.target.closest('.modal-content')) {
+            closeModal();
+        }
+    });
+    document.addEventListener('keydown', function(event) {
+        if (event.key === 'Escape' && isModalOpen()) {
+            closeModal();
+        }
+    });
+
+    
+    document.getElementById('orderForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        if (validateForm()) {
+            
+        } else {
+            alert('Please fill out all fields before submitting the form.');
+        }
+    });
+
+    
+    function setPhotoName(name) {
+        document.getElementById('photoName').value = name;
+    }
+
+    function displayImage(src, alt) {
+        const modalImageContainer = document.getElementById('modalImageContainer');
+        modalImageContainer.innerHTML = '';
+
+        const photoNameHeading = document.createElement('h2');
+        photoNameHeading.textContent = alt;
+        modalImageContainer.appendChild(photoNameHeading);
+
+        const img = document.createElement('img');
+        img.src = src;
+        img.alt = alt;
+        img.classList.add('modal-image');
+        modalImageContainer.appendChild(img);
+    }
+
+    function showModal() {
+        document.getElementById('orderModal').style.display = 'block';
+    }
+
+    function closeModal() {
+        document.getElementById('orderForm').reset();
+        document.getElementById('orderModal').style.display = 'none';
+    }
+
+    function isModalOpen() {
+        return document.getElementById('orderModal').style.display === 'block';
+    }
+
+    function validateForm() {
+        const material = document.getElementById('material').value;
+        const size = document.getElementById('size').value;
+        return material && size;
+    }
+</script>
+
     <footer>
   
   <section class="social-icons">
